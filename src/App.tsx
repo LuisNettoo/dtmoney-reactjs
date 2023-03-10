@@ -1,10 +1,14 @@
-import React from "react";
+import { Dashbord } from "./components/Dashborder";
+import { Header } from "./components/Header";
+import { GlobalStyles } from "./styles/global";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, World</h1>
-    </div>
+    <>
+      <Header />
+      <Dashbord />
+      <GlobalStyles />
+    </>
   );
 }
 
