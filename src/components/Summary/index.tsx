@@ -18,14 +18,14 @@ export const Summary = () => {
           <p>Saídas</p>
           <img src={saidasImg} alt="Entradas" />
         </header>
-        <strong>-R$1.000,00</strong>
+        <strong>- R$1.000,00</strong>
       </div>
       <div>
         <header>
           <p>Total</p>
           <img src={totalImg} alt="Entradas" />
         </header>
-        <strong>R$1.000,00</strong>
+        <strong className="total">R$500,00</strong>
       </div>
     </Container>
   );

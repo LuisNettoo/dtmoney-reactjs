@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-top: -10rem;
+  margin-top: -5.5rem;
 
   div {
     background-color: var(--shape);
@@ -24,10 +24,15 @@ export const Container = styled.div`
       font-size: 2rem;
       font-weight: 500;
       line-height: 3rem;
+      color: var(--text-body);
+
+      &.total {
+        color: #fff;
+      }
     }
 
     &:last-child {
-      background: #33CC95;
+      background: var(--green);
       color: #fff;
     }
   }
