@@ -18,6 +18,7 @@ export const Content = styled.div`
     color: #ffffff;
     background: var(--blue-light);
     border: 0;
+    outline: none;
     padding: 0 2rem;
     border-radius: 0.25rem;
     height: 3rem;
